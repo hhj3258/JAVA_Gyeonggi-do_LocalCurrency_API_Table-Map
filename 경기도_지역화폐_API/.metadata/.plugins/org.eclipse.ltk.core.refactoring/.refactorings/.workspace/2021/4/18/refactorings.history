@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;ComputerNetwork_07&apos; to &apos;Source_경기도_지역화폐_API_지도&apos;&#x0D;&#x0A;- Original element: &apos;ComputerNetwork_07&apos;&#x0D;&#x0A;- Renamed element: &apos;ComputerNetwork_07&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;ComputerNetwork_07&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=ComputerNetwork_07" name="Source_경기도_지역화폐_API_지도" references="true" stamp="1619623224679" version="1.0"/>
+</session>
