@@ -233,7 +233,7 @@
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_EUp1h6g0Eeu--aajlFetpQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="MainC.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MainC.java&quot; partName=&quot;MainC.java&quot; title=&quot;MainC.java&quot; tooltip=&quot;Source_&#xacbd;&#xae30;&#xb3c4;_&#xc9c0;&#xc5ed;&#xd654;&#xd3d0;_API_&#xc9c0;&#xb3c4;/src/MainC.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Source_&#xacbd;&#xae30;&#xb3c4;_&#xc9c0;&#xc5ed;&#xd654;&#xd3d0;_API_&#xc9c0;&#xb3c4;/src/MainC.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1619&quot; selectionTopPixel=&quot;30&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MainC.java&quot; partName=&quot;MainC.java&quot; title=&quot;MainC.java&quot; tooltip=&quot;Source_&#xacbd;&#xae30;&#xb3c4;_&#xc9c0;&#xc5ed;&#xd654;&#xd3d0;_API_&#xc9c0;&#xb3c4;/src/MainC.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Source_&#xacbd;&#xae30;&#xb3c4;_&#xc9c0;&#xc5ed;&#xd654;&#xd3d0;_API_&#xc9c0;&#xb3c4;/src/MainC.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;6354&quot; selectionTopPixel=&quot;5462&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
@@ -411,7 +411,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_EUp2V6g0Eeu--aajlFetpQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_FCYAoKg1EeuO980XPaxeWA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_EUsR06g0Eeu--aajlFetpQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_iYbMMKkHEeu3IKq2RiR7sw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_EUsR06g0Eeu--aajlFetpQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_EUp2Zag0Eeu--aajlFetpQ" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -442,10 +442,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_EUp2u6g0Eeu--aajlFetpQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_FCZ10qg1EeuO980XPaxeWA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_EUsRSKg0Eeu--aajlFetpQ"/>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_EUp2xag0Eeu--aajlFetpQ" elementId="org.eclipse.jdt.ui.CompilationUnitEditor" visible="false">
-        <tags>Draggable</tags>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_iYdBY6kHEeu3IKq2RiR7sw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_EUsRSKg0Eeu--aajlFetpQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_EUp2xqg0Eeu--aajlFetpQ" elementId="org.eclipse.wb.core.guiEditor" visible="false">
         <tags>Draggable</tags>

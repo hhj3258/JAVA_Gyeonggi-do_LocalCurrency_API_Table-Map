@@ -95,10 +95,13 @@ public class MainC extends JFrame
 				btnNewButton.setEnabled(false);
 				
 				// Thread 로 덮어서, 버튼 멈춘 현상 제거
-
+				// 원래는 handler 와 같은 루틴을 이용하여 main thread 에 message 를 날려 ui 를 refresh 하는 작업을 하는 것이 정석
+				// 여기서는 간단히 해결 하기 위해 그냥 전체 영역을 thread 로 덮음. 
+				// 안드로이드같은 플랫폼에서는 이렇게 하면 오류가 발생함.
 				new Thread() {
 					@Override
 					public void run() {
+						// [PPT 보고 진행하는 부분] 버튼 비활성화, 웹 함수 불러오는 부분, 버튼 활성화
 						
 						//버튼 비활성화
 						btnNewButton.setEnabled(false);
@@ -298,13 +301,15 @@ public class MainC extends JFrame
 		//메소드를 불러올 때 기존 table 값을 비워준다.
 		dataModel.clearData();
 		String url ="";
-
+		//String urlt= "https://openapi.gg.go.kr/RegionMnyFacltStus?KEY=a87aef6b2f03489facc47c98c9208501&pIndex="+ count +"&pSize=1000&SIGUN_NM=의정부시";
+		//String urlts= "https://openapi.gg.go.kr/RegionMnyFacltStus?KEY=a87aef6b2f03489facc47c98c9208501&pIndex=2&pSize=1000&SIGUN_CD=41150";
 
 		//전지역일 때는 모든 시군의 가맹점들 출력
 		if(comboBox_1.getSelectedItem() == "전지역")
 			url = "https://openapi.gg.go.kr/RegionMnyFacltStus?KEY=a87aef6b2f03489facc47c98c9208501&pIndex="+ count +"&pSize=100";
 		//다른 시군이 선택되었다면 그 시군의 가맹점만을 출력
 		else 
+			//url= "https://openapi.gg.go.kr/RegionMnyFacltStus?KEY=a87aef6b2f03489facc47c98c9208501&pIndex="+ count +"&pSize=1000&SIGUN_NM="+si;
 			url = "https://openapi.gg.go.kr/RegionMnyFacltStus?KEY=a87aef6b2f03489facc47c98c9208501&pIndex="+ count +"&pSize=1000&SIGUN_NM="+incodeNM(comboBox_1.getSelectedItem().toString());
 
 		Document res = HttpModule.requestXmlGet(url);
